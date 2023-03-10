@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T09:27:07.731Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="BylajbzcheIniNJ-Kt_y" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T01:42:31.604Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="rTHUGNlZDxX1JfjpELiR" version="21.0.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1366" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
           <mxGeometry x="45" y="220" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" value="WebexLauncherActivity" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="540" y="80" width="120" height="580" as="geometry" />
+          <mxGeometry x="540" y="80" width="120" height="1220" as="geometry" />
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7baba1c4bc27f4b0-4">
           <mxGeometry x="55" y="170" width="10" height="40" as="geometry" />
@@ -213,7 +213,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-51" value="OnboardingViewModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="80" width="120" height="820" as="geometry" />
+          <mxGeometry x="1370" y="80" width="120" height="1210" as="geometry" />
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-59" value="checkIfCachedUser" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="ngXyE4OciRFzwW1yXKa9-51" target="ngXyE4OciRFzwW1yXKa9-55">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -234,6 +234,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="840" as="sourcePoint" />
             <mxPoint x="59.5" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngXyE4OciRFzwW1yXKa9-92" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ngXyE4OciRFzwW1yXKa9-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="212" y="830" as="sourcePoint" />
+            <mxPoint x="-118.35294117647072" y="1220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-55" value="OnboardingService.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
@@ -282,7 +288,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-60" value="ConversationService.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="80" width="130" height="1190" as="geometry" />
+          <mxGeometry x="2101" y="80" width="130" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-82" value="getConversationsFromPersistency" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="ngXyE4OciRFzwW1yXKa9-60" target="ngXyE4OciRFzwW1yXKa9-81">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -356,24 +362,39 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-75" value="CommonHeadFramework" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2420" y="80" width="150" height="1340" as="geometry" />
+          <mxGeometry x="2421" y="80" width="150" height="1340" as="geometry" />
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-76" value="Wdm.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="1950" y="80" width="120" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-81" value="ConversationModel.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2260" y="80" width="130" height="1140" as="geometry" />
+          <mxGeometry x="2261" y="80" width="130" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-83" value="callback" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="ngXyE4OciRFzwW1yXKa9-84">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2320" y="1000" as="sourcePoint" />
-            <mxPoint x="2180" y="1000" as="targetPoint" />
+            <mxPoint x="2321" y="1000" as="sourcePoint" />
+            <mxPoint x="2181" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ngXyE4OciRFzwW1yXKa9-85" value="notifyDatabaseInitializationState(DatabaseInitializationState::StartupFetchFullyComplete)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="2150" y="1060" as="sourcePoint" />
             <mxPoint x="1020" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngXyE4OciRFzwW1yXKa9-91" value="wdm setDeviceJson and parseDeviceJson&lt;br&gt;onApplicationEventHappened:CachedConfigReady&lt;br&gt;createComponet&lt;br&gt;fullservice" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1310" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXyE4OciRFzwW1yXKa9-94" value="fireNotification(&amp;amp;ICommonHeadFrameworkCallback::onServicesInitCompleted)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2491.5" y="1193" as="sourcePoint" />
+            <mxPoint x="1436" y="1193" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngXyE4OciRFzwW1yXKa9-95" value="fireNotification(&amp;amp;IOnboardingViewModelCallback::onOnboardingModelChanged, mCurrentOnboardingModel)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1424" y="1240" as="sourcePoint" />
+            <mxPoint x="673.5" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
